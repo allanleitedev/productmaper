@@ -1,0 +1,195 @@
+/*RESET CSS*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+    padding: 0px !important;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------------------------------------------------------*/
+
+/*IMPORTS*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/*-----------------------------------------------------------------------*/
+body{
+    background-color: #ecf0f1;
+    font-family:  'Open Sans', sans-serif;
+}
+#listaprincipal > div{
+    border: none;
+
+}
+.linha {
+    height: 1px;
+    background-color: #000;
+    opacity: 0.2;
+    width: 80px;
+    transform: translateY(20px);
+}
+
+li ul {
+    
+    margin-left: 50px;
+}
+li {
+    margin: 15px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+li div {
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0,0,0.2);
+}
+
+li p {
+    margin: 0px 10px;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#delsub{
+    opacity: 0.2;
+    color: tomato;
+    transition: 0.5s;
+}
+
+#delsub:hover{
+    opacity: 1;
+}
+
+#delsub:focus{
+    color: tomato;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    opacity: 1;
+}
+
+.savecod{
+    color: rgb(37, 99, 96);
+    opacity: 0.3;
+    padding: 20px;
+    background-color: rgb(209, 207, 207);
+    margin: 20px;
+    cursor: none;
+
+}
+.geracod{
+    color: rgb(37, 99, 96);
+    padding: 20px;
+    background-color: rgb(129, 245, 191);
+    margin: 20px;
+}
+.mais{
+    color: #ecf0f1;
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.mais:hover{
+    color: rgb(48, 161, 82);
+    transform: rotateZ(180deg);
+}
+
+.mais:focus{
+    color: rgb(48, 161, 82);
+    transform: rotateZ(180deg);
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#cont1{
+    display: flex;
+}
+
+#codigos{
+    width: 50%;
+    min-height: 100vh;
+}
+
+#mapeamento{
+    width: 50%;
+    border-right: 1px solid #fff;
+}
+
+input{
+
+    border: 1px solid #f0f0f0;
+    padding: 5px;
+    color: rgba(0, 0,0,0.6);
+}
+
+input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+#famcode{
+    max-width: 40px;
+    margin-right: 15px;
+}
+td{
+    padding: 5px;
+}
+
+tr{
+    border-top: px solid rgba(0, 0,0,0.6);
+}
+
+table{
+    margin: 10px;
+}
+
+.qtmod{
+    max-width: 40px;
+}
